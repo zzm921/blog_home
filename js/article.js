@@ -2,7 +2,7 @@ $(function () {
     let id = getUrlParam("id")
     $.ajax({
         type: "GET",
-        url: "/cloud/api/articles/" + id,
+        url: "http://www.zhexia.xyz/cloud/api/articles/" + id,
         dataType: "json",
         success: function (data) {
             var html = '<h2 style="text-align: center;">' + data.title + '</h2>'

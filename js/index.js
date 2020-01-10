@@ -1,6 +1,6 @@
 $(function () {
     var tag = getUrlParam("tagid")
-    var url = tag ? "/cloud/api/articles?tagid=" + tag : "/cloud/api/articles"
+    var url = tag ? "http://www.zhexia.xyz/cloud/api/articles?tagid=" + tag : "http://www.zhexia.xyz/cloud/api/articles"
 
     $(".nav li").removeClass("active")
     if (tag) {
